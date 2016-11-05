@@ -1,8 +1,11 @@
 language: node_js
 node_js:
-  - "node"
-# deploy:
-#   provider: npm
-#   api_key: $NPM_TOKEN
-#   on:
-#     tags: true
+- node
+deploy:
+  provider: npm
+  email: butkovic@gmail.com
+  api_key:
+    secure: c7gUElS217Itn94ND8B4I7Cdu5Iokn0E29n/ha9AdjTZwKdQJ5kRs9Og9C+HGD3zdThCiCar/xk6gzwQK4Fbu+25udqnMd+Tsxv3dYcXoZ/mjZ1ppgCttwGvaacvs5RlmSUbzrE1Y1eVl3EiHAf7pp533+4jbk4SF2qPnbZ93W4XaZoRVwXVHxhgqD8Mtza4cWDAuwu1fche0ZwvNIy8tx5Hd1BhINRA8ynfnT2kkcyG0CfK+pHUAqPdu+bOQRhu2r9nqvscFPvLLODtz3c8dBOGYZTFAHpEXTlhDLUIyPGk2S8h7b93XykLqU2j+q7Z895Gd/u9zCXvWSjkRLHWGNd+RCB4JUuhJ7X3Y2mzvFFXZQFd6L9d9YAFRe8L991Xt9bVbshzMtlcho7G1lJvgtr/SZtEiaBGxMuUJdvPngtn11+xyycuH1JaRjTCGz5P8ye2xQ0gDgeP9j5YpFz41S9rNGAfTAXDPV7oC26X+sDGzf83zdCB7O+gwa4BKA155B2MkK6n5ckDsIJCU6gtqqG2U9DLxsL42ICgPUKBa5SOCw/QbDMEMD79OI9sJiMjjsDYQwH2Yvv8e721PQtNI12UUjS7Q2yq5VpS0g4pxbjwXXWYQbAcUs0+LL3SUtulPb6GVqjzgcIpA5ItM3AG2Mboe4e60jh0xgk3WD33+3k=
+  on:
+    tags: true
+    repo: typekpb/oradown
