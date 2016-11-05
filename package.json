@@ -1,6 +1,6 @@
 {
     "name": "oradown",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Download files from Oracle website via command line",
     "main": "bin/oradown.js",
     "bin": "./bin/oradown",
