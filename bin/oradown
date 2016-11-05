@@ -1,0 +1,17 @@
+#!/usr/bin/env node
+
+var lib = require('../lib/oradown.js');
+
+var stdio = require('stdio');
+var opts = stdio.getopt({
+    'accept_license': { mandatory: true, description: 'Accept Oracle license?' },
+    'file': { key: 'f', args: 1, mandatory: true, description: 'Remote filename to download (value of <a name=""> argument)' },
+    'outDir': { args: 1, mandatory: false, description: ' Name of the directory to download to (current dir if not provided)' },
+    'outFile': { args: 1, mandatory: false, description: 'Filename to download to (if absolute path is provided, option outDir is ignored)' },
+    'oralogin': { key: 'l', args: 1, mandatory: true, description: 'Oracle login' },
+    'orapwd': { key: 'p', args: 1, mandatory: true, description: 'Oracle password' },
+    'url': { key: 'u', args: 1, mandatory: true, description: 'Oracle URL for download site' },
+    'showbrowser': { key: 's', mandatory: false, description: 'Show the browser while interacting with site?' }
+});
+
+lib.oradown(opts.accept_license, opts.file, opts.outDir, opts.outFile, opts.oralogin, opts.orapwd, opts.url, opts.showbrowser);

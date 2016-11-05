@@ -1,0 +1,23 @@
+{
+    "name": "oradown",
+    "version": "0.0.1",
+    "description": "Download files from Oracle website via command line",
+    "main": "bin/oradown.js",
+    "bin": "./bin/oradown",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/typekpb/oradown.git"
+    },
+    "author": "Peter Butkovic",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/typekpb/oradown/issues"
+    },
+    "homepage": "https://github.com/typekpb/oradown#readme",
+    "dependencies": {
+        "nightmare": "^2.8.1",
+        "nightmare-download-manager": "^0.2.2",
+        "path-is-absolute": "^1.0.0",
+        "stdio": "^0.2.7"
+    }
+}
