@@ -14,11 +14,18 @@
         "url": "https://github.com/typekpb/oradown/issues"
     },
     "homepage": "https://github.com/typekpb/oradown#readme",
+    "scripts": {
+        "ncu": "./node_modules/npm-check-updates/bin/ncu",
+        "ncu-a": "./node_modules/npm-check-updates/bin/ncu -a"
+    },
     "dependencies": {
-        "nightmare": "^2.8.1",
-        "nightmare-download-manager": "^0.2.2",
-        "path-is-absolute": "^1.0.0",
-        "stdio": "^0.2.7",
-        "mkdirp": "^0.5.1"
+        "mkdirp": "0.5.1",
+        "nightmare": "2.8.1",
+        "nightmare-download-manager": "0.2.2",
+        "path-is-absolute": "1.0.1",
+        "stdio": "0.2.7"
+    },
+    "devDependencies": {
+        "npm-check-updates": "2.8.6"
     }
 }
