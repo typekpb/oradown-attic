@@ -18,6 +18,7 @@
         "nightmare": "^2.8.1",
         "nightmare-download-manager": "^0.2.2",
         "path-is-absolute": "^1.0.0",
-        "stdio": "^0.2.7"
+        "stdio": "^0.2.7",
+        "mkdirp": "^0.5.1"
     }
 }
