@@ -1,4 +1,6 @@
-[![Travis](http://travis-ci.org/typekpb/oradown.png?branch=master)](http://travis-ci.org/typekpb/oradown) 
+[![NPM version](https://badge.fury.io/js/oradown.svg)](http://badge.fury.io/js/oradown)
+[![Travis](http://travis-ci.org/typekpb/oradown.png?branch=master)](http://travis-ci.org/typekpb/oradown)
+[![Dependency Status](https://img.shields.io/david/typekpb/oradown.svg)](https://david-dm.org/typekpb/oradown)
 
 # oradown
 Enables download of the SSO protected files from the Oracle website.
