@@ -26,6 +26,6 @@
         "stdio": "0.2.7"
     },
     "devDependencies": {
-        "npm-check-updates": "2.8.6"
+        "npm-check-updates": "2.8.8"
     }
 }
