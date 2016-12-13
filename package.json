@@ -2,7 +2,7 @@
     "name": "oradown",
     "version": "0.0.3",
     "description": "Download files from Oracle website via command line",
-    "main": "bin/oradown.js",
+    "main": "lib/oradown.js",
     "bin": "./bin/oradown",
     "repository": {
         "type": "git",
