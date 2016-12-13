@@ -1,7 +1,7 @@
 {
     "name": "oradown",
     "version": "0.0.3",
-    "description": "Download files from Oracle website via command line",
+    "description": "Download of the SSO protected files from the Oracle website",
     "main": "lib/oradown.js",
     "bin": "./bin/oradown",
     "repository": {
