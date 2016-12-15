@@ -15,6 +15,7 @@
     },
     "homepage": "https://github.com/typekpb/oradown#readme",
     "scripts": {
+        "test": "./node_modules/.bin/jasmine-node spec",
         "ncu": "./node_modules/npm-check-updates/bin/ncu",
         "ncu-a": "./node_modules/npm-check-updates/bin/ncu -a"
     },
@@ -26,6 +27,11 @@
         "stdio": "0.2.7"
     },
     "devDependencies": {
-        "npm-check-updates": "2.8.8"
+        "fs-extra": "^1.0.0",
+        "jasmine-node": "1.14.5",
+        "md5": "^2.2.1",
+        "npm-check-updates": "2.8.8",
+        "shelljs": "0.7.5",
+        "sprintf-js": "1.0.3"
     }
 }
